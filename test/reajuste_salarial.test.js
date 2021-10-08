@@ -19,6 +19,6 @@ test("reajusta salario em 15% quando salario for maior que 1000 e menor que 2000
 	expect(reajuste(1100)).toBe(1265);
 });
 
-test("reajusta salario em 5% quando salario for maior que 2000", () => {
-	expect(reajuste(2000)).toBe(2100);
+test("reajusta salario em 4% quando salario for maior que 2000", () => {
+	expect(reajuste(2500)).toBe(2600);
 });
